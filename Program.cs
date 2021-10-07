@@ -55,6 +55,33 @@ namespace Bootcamp
             // lab5.Problem19();
             // lab5.Problem20();
             // lab5.Problem21();
+            var lab6 = new Lab6();
+            // lab6.Problem6_1();
+            // lab6.Problem6_2();
+            // lab6.Problem6_3();
+            // lab6.Problem6_4();
+            // lab6.Problem6_4();
+            // lab6.Problem6_4();
+            // lab6.Problem6_5();
+            // lab6.Problem6_6();
+            // lab6.Problem6_7();
+            // lab6.Problem6_8();
+            // lab6.Problem6_9();
+            // lab6.Problem6_10();
+            // lab6.Problem6_11();
+            // lab6.Problem6_12();
+            // lab6.Problem6_13();
+            // lab6.Problem6_14();
+            // lab6.Problem6_15();
+            // lab6.Problem6_16();
+            // lab6.Problem6_17();
+            // lab6.Problem6_18();
+            // lab6.Problem6_19();
+            // lab6.Problem6_20();
+            // lab6.Problem6_21();
+            // lab6.Problem6_22();
+            // lab6.Problem6_23();
+            // lab6.Problem6_24();
 
         }
     }
