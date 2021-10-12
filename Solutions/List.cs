@@ -22,6 +22,26 @@ namespace Bootcamp.Solutions
 
                 
                 Console.WriteLine("Average: " + (list.Count > 0? sum / list.Count : 0));
+        }
+
+        public void Problem2()
+        {
+            var text = Console.ReadLine().Substring(0, 5);
+            var textArray = text.ToCharArray();
+
+            for(int qator = 0; qator < text.Length; qator++)
+            {  
+            
+                int start = qator;
+                
+                for(int ustun =0; ustun < text.Length; ustun++)
+                {
+                    System.Console.Write(text[start++ % text.Length ]);
+                    
+                    
+                }
+                System.Console.WriteLine(" ");
             }
-       } 
+        }
+    } 
  }

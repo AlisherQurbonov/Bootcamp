@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 
 namespace Bootcamp.Solutions
 {
@@ -124,5 +125,37 @@ namespace Bootcamp.Solutions
                 }
                 Console.WriteLine(sum);
         } 
-    }
+
+        public void Problem6()
+    {
+        // int[,] arr = new int[3,2];
+   
+        // for(int i =0; i < 3; i++)
+        // {
+        // for(int j =0; j < 2; j++)
+        // {
+        //    arr[i,j] = int.Parse(Console.ReadLine());
+
+        //    System.Console.WriteLine(arr[i,0] + arr[i,1]);
+                            
+        // }
+          
+         
+         var arr=new int[3,2];
+         
+          for (int i = 0; i < 3; i++)
+         {
+         
+          for (int j = 0; j < 2; j++)
+         {
+           arr[i, j]=int.Parse(Console.ReadLine());
+         }
+         }
+
+         for (int i = 0; i < 3; i++)
+        {
+          System.Console.WriteLine(arr[i,0] + arr[i,1]);
+        }
+        }
+     }
 }

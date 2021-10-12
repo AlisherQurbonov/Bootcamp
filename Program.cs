@@ -55,7 +55,7 @@ namespace Bootcamp
             // lab5.Problem19();
             // lab5.Problem20();
             // lab5.Problem21();
-            var lab6 = new Lab6();
+            // var lab6 = new Lab6();
             // lab6.Problem6_1();
             // lab6.Problem6_2();
             // lab6.Problem6_3();
@@ -83,6 +83,58 @@ namespace Bootcamp
             // lab6.Problem6_23();
             // lab6.Problem6_24();
 
+        //    int x;
+        //    while(!TryGetInt(out x));
+        //    System.Console.WriteLine($"{x*x}");
+
+        //   var list = new List();
+        //   list.Problem2();
+
+            // var darray = new DArray();
+            // darray.Problem6();
+
+        //     Season a = Season.Autumn;
+        // Console.WriteLine($"Integral value of {a} is {(int)a}"); 
+
+        // var b = (Season)1;
+        // Console.WriteLine(b);  
+
+        // var c = (Season)4;
+        // Console.WriteLine(c); 
+
+        Point a = new ();
+        Point b = new (2,2);
+
+        Planet mars = new Planet(b,10);
+        // System.Console.WriteLine($"{a},{b}");
+        // System.Console.WriteLine($"{a.DistanceTo(b):0.00}"); 
+         
+         System.Console.WriteLine(mars.HasPointInside(a));
+
         }
+        // static bool TryGetInt(out int x)
+        // {
+        //     x = 0;
+        //     try
+        //     {
+        //         x = int.Parse(Console.ReadLine());
+        //         return true;
+        //     }
+        //     catch(Exception e)
+        //     {
+        //         System.Console.WriteLine($"{e.Message}");
+
+        //         return false;
+        //     }
+        // }
+
+    //     public enum Season
+    //    {
+    //      Spring,
+    //      Summer,
+    //     Autumn,
+    //     Winter
+    //   }
+
     }
 }
